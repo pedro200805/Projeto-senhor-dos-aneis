@@ -87,23 +87,56 @@
                     <label for="Filme 2"></label><input type="radio" name="filme" id="Filme 2" value="filme 2">Filme 2</label>
 
                     <label for="Filme 3"></label><input type="radio" name="filme" id="Filme 3" value="filme 3">Filme 3</label>
-                    </fieldset>
+                    </fieldset><br><br>
 
-                    <select>
-                        <option value="filme 1">Filme 1</option>
+                      <select id="lista supensa" name="lista">
+                        <optgroup label="teste de legenda">
+                        <option selected value="filme 1">Filme 1</option>
                         <option value="filme 2">Filme 2</option>
-                        <option Selected value="filme 3">Filme 3</option>
-                    </select>
+                        <option value="filme 3">Filme 3</option>
+                        </optgroup>
+                    </select><br><br>
+
+                      <label for="nivel">Escolha o nivel</label>
+                    <input type="range" max="10" min="1" id="nivel" name="nivel"><br><br>
+
+                    <fieldset>
+                        <legend>Desenvolvimento para internet</legend>
+                    <label><input type="checkbox" name="php" value="php">PHP</label>
+                    <label><input type="checkbox" name="HTML5" value="HTML5">HTML5</label>
+                    <label><input type="checkbox" name="CSS" value="CSS">CSS</label>
+                    <label><input type="checkbox" name="JS" value="JAVASCRIPT">JAVASCRIPT</label>
+                    </fieldset><br><br>
+
+                    <!--Datalist possíveis ganhadores da copa do mundo 2026-->
+                    <label for="busca_datalist">Campeão Copa 2026</label>
+                    <input type="text" id="busca_datalist" list="paises">
+
+                    <datalist id="paises">
+                        <option>Brasil</option>
+                        <option>França</option>
+                        <option>Argentina</option>
+                        <option>Alemanha</option>
+                        <option>Inglaterra</option>
+                        <option>Espanha</option>
+                        </datalist><br><br>
+
+                        <audio controls>
+                            <source src="Audio/musica.mp3" type="audio/mp3">
+                        </audio><br><br>
+
+                        <fieldset>
+                        <video controls autoplay loop muted>
+                            <source src="video/videoteste.mp4" type="video/mp4">
+                        </video>
+                        </fieldset><br><br>
+
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Y8CbMkfu-qU?si=DBiCKr2Xf3gx4ZM7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
                     <button type="reset">Limpar</button>
                     <button type="submit">Enviar</button>
 
-
-
-
-
-
-                <button type="submit">Enviar</button>
 
             </form>
 
