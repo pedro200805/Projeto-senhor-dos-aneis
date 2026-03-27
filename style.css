@@ -6,3 +6,11 @@
   background-color: #2f4f2f;
   color: lch(100% 0.01 296.81);
 }
+
+#layout {
+  display: flex;
+}
+
+.rodape {
+  text-align: center;
+}
