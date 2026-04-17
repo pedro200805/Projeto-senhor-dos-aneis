@@ -1,17 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 #titulo_principal {
-  background-color: #8b6f1e;
-  color: lch(100% 0.01 296.81);
+  background-color: #069ea3;
+  color: lch(0% 0 0);
 }
 .titulo_secundario {
-  background-color: #2f4f2f;
-  color: lch(100% 0.01 296.81);
-}
-
-#layout {
-  display: flex;
+  background-color: #04968a;
+  color: lch(0% 0 0);
 }
 
 .rodape {
   text-align: center;
 }
 
+body {
+  background-color: rgb(0, 0, 0); /*cor de fundo*/
+  color: rgb(255, 255, 250); /*Cor da fonte*/
+  font-family: Georgia, "Times New Roman", Times, serif; /*Tipo fonte do texto*/
+  font-size: 16px; /*tamanho da fonte - px/em/rem*/
+}
+
+#layout {
+  font-size: 1em; /*herda o tamanho do pai dele com um multiplicado*/
+  display: flex;
+  font-style: italic; /*Estilo da fonte:italic - normal - oblique*/
+  line-height: 30px; /*espacamento entre linhas*/
+  font-weight: 400; /*Negrito em css 100 a 900 bold e bolder*/
+  text-transform: capitalize; /*Capitalizacao do texto: lowercase - uppercase - capitalize*/
+  text-decoration: none; /*Sublinhado de texto: underline ou overline double - dashed - dotted - wavy - none*/
+  word-spacing: 1px; /*espacamento entre palavras*/
+  letter-spacing: 2px; /*espacamento entre letras*/
+  text-indent: 20px; /*espacamento de paragrafo primeira linha*/
+  text-align: justify; /*Alinhamento do texto: left - right - center e justify*/
+}
+
+nav a {
+  text-decoration: none;
+}
