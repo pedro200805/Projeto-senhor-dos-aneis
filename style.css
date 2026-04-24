@@ -4,7 +4,7 @@
   color: lch(0% 0 0);
 }
 .titulo_secundario {
-  background-color: #04968a;
+  background-color: #069ea3;
   color: lch(0% 0 0);
 }
 
@@ -31,8 +31,22 @@ body {
   letter-spacing: 2px; /*espacamento entre letras*/
   text-indent: 20px; /*espacamento de paragrafo primeira linha*/
   text-align: justify; /*Alinhamento do texto: left - right - center e justify*/
+
+  border-style: double; /*estilo da borda: solid, dashed, dotted, double, groove, ridge, inset, outset*/
+  border-width: 1em; /*Espessura da borda*/
+  border-color: #069ea3; /*Definir cor da borda*/
+  /*border-top: estilizar topo da borda, border-left: estilizar esquerda da borda, border-bottom: estilizar parte de baixo da borda, border-right: estilizar lado direito da borda*/
+  border-radius: 20px; /*arredondar canto da borda*/
+  margin: 5px; /*margem do lado de fora da borda*/
+  padding: 10px; /*margem dentro da borda*/
 }
 
 nav a {
   text-decoration: none;
 }
+
+/* .teste_display{
+  background-color: #069ea3;
+  display: inline-block; 
+  width: 500px;
+} */
