@@ -45,8 +45,62 @@ nav a {
   text-decoration: none;
 }
 
-/* .teste_display{
+.teste_display {
   background-color: #069ea3;
-  display: inline-block; 
+  display: inline-block;
   width: 500px;
-} */
+}
+
+#teste_estilo_lista_ul {
+  list-style-type: circle; /*disc, circle, nome defini o estilo de marcador da lista não ordenada (UL) */
+}
+
+#teste_estilo_lista_ol {
+  /*list-style-type: lower-alpha; /*decimal - lower-roman - upper-roman - lower-greek - lower-alpha - upper-alpha*/
+  list-style-image: url('seta_direita_vermelha.png');
+}
+
+li {
+  border: solid 3px #069ea3;
+  list-style-position: outside; /*Ela serve para dizer ao navegador se o marcador dea lista faz parte ou não do texto da lista: inside ou outside*/
+}
+
+#impacto {
+  /*background-image: url('senhordosaneis_fundo.jpg') no-repeat; resume a imagem de fundo e repeticao em uma linha*/
+
+  background-image: url('senhordosaneis_fundo.jpg'); /*Carrega imagem ao fundo do elemento html*/
+  background-repeat: no-repeat; /* no-repeat / repeat / repeat-y / repeat-x configura a forma como a imgaem ira repetir ao fundo do elemento do html*/
+  background-size: cover; /*serve para definir como a imagem sera exibida  ao fundo do html */
+  background-attachment: fixed; /* serve para definir como a imagem de fundo vai lidar com scroll ao fundo do html*/
+  text-shadow: 2px 2px 2px #04575a; /*define a sombra ao fundo do elemento html */
+  position: relative;
+
+}
+
+.noticia{
+  border: solid white;
+  width: 200px;
+  position:fixed; /*define o posicionamento atras ou na frente dos elementos do html*/
+  height: 100px;
+  overflow: auto;/*trata o corpotamento de quando por exemplo o texto passa das bordas de um elemento html (da um overflow) visible/hidden/scroll;*/ 
+
+}
+
+.um{
+  background-color: #069ea3;
+  top: 0px;
+  left: 50px;
+  z-index: 3;
+}
+
+.dois{
+  background-color: #069ea3;
+  top: 100px;
+  left: 150px;
+}
+
+.tres{
+  background-color: #069ea3;
+  top: 200px;
+  left: 300px;
+}
