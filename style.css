@@ -45,15 +45,28 @@ nav a {
   text-decoration: none;
 }
 
-.teste_display {
-  background-color: #069ea3;
-  display: inline-block;
-  width: 500px;
+#teste_display {
+  font-size: 20px;
+  display: block;
+  font-style: italic;
+  line-height: 30px;
+  word-spacing: 1px;
+  letter-spacing: 2px; 
+  text-indent: 20px;
+  text-align: justify;
+
+  border-style: double;
+  border-width: 1em; 
+  border-color: #069ea3;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 10px;
+
 }
 
-#teste_estilo_lista_ul {
+/* #teste_estilo_lista_ul {
   list-style-type: circle; /*disc, circle, nome defini o estilo de marcador da lista não ordenada (UL) */
-}
+
 
 #teste_estilo_lista_ol {
   /*list-style-type: lower-alpha; /*decimal - lower-roman - upper-roman - lower-greek - lower-alpha - upper-alpha*/
@@ -61,46 +74,72 @@ nav a {
 }
 
 li {
-  border: solid 3px #069ea3;
+  border: double 6px #08999e;
   list-style-position: outside; /*Ela serve para dizer ao navegador se o marcador dea lista faz parte ou não do texto da lista: inside ou outside*/
+  border-radius: 4px;
 }
 
-#impacto {
+/*#impacto {
   /*background-image: url('senhordosaneis_fundo.jpg') no-repeat; resume a imagem de fundo e repeticao em uma linha*/
 
-  background-image: url('senhordosaneis_fundo.jpg'); /*Carrega imagem ao fundo do elemento html*/
-  background-repeat: no-repeat; /* no-repeat / repeat / repeat-y / repeat-x configura a forma como a imgaem ira repetir ao fundo do elemento do html*/
-  background-size: cover; /*serve para definir como a imagem sera exibida  ao fundo do html */
-  background-attachment: fixed; /* serve para definir como a imagem de fundo vai lidar com scroll ao fundo do html*/
-  text-shadow: 2px 2px 2px #04575a; /*define a sombra ao fundo do elemento html */
-  position: relative;
+  /*background-image: url('senhordosaneis_fundo.jpg'); /*Carrega imagem ao fundo do elemento html*/
+  /*background-repeat: no-repeat; /* no-repeat / repeat / repeat-y / repeat-x configura a forma como a imgaem ira repetir ao fundo do elemento do html*/
+  /*background-size: cover; /*serve para definir como a imagem sera exibida  ao fundo do html */
+  /*background-attachment: fixed; /* serve para definir como a imagem de fundo vai lidar com scroll ao fundo do html*/
+  /*text-shadow: 2px 2px 2px #04575a; /*define a sombra ao fundo do elemento html */
+  /*position: relative;
 
 }
 
-.noticia{
+/*.noticia{
   border: solid white;
   width: 200px;
-  position:fixed; /*define o posicionamento atras ou na frente dos elementos do html*/
-  height: 100px;
-  overflow: auto;/*trata o corpotamento de quando por exemplo o texto passa das bordas de um elemento html (da um overflow) visible/hidden/scroll;*/ 
+  position: fixed; /*define o posicionamento atras ou na frente dos elementos do html*/
+  /*height: 100px;*/
+  /*overflow: auto;/*trata o corpotamento de quando por exemplo o texto passa das bordas de um elemento html (da um overflow) visible/hidden/scroll;*/ 
 
-}
 
-.um{
+/*.um{
   background-color: #069ea3;
-  top: 0px;
-  left: 50px;
+  top: 300px;
+  left: 500px;
   z-index: 3;
 }
 
 .dois{
   background-color: #069ea3;
-  top: 100px;
-  left: 150px;
+  top: 400px;
+  left: 550px;
 }
 
 .tres{
   background-color: #069ea3;
-  top: 200px;
-  left: 300px;
+  top: 500px;
+  left: 600px;
+}*/
+
+#display_2{
+  font-size: 20px;
+  display: block;
+  font-style: italic;
+
+  border-style: double;
+  border-width: 1em; 
+  border-color: #069ea3;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 10px;
+}
+
+#display_3{
+  font-size: 1em;
+  display: block;
+  font-style: italic;
+
+  border-style: double;
+  border-width: 1em; 
+  border-color: #069ea3;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 10px;
 }
