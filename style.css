@@ -20,7 +20,7 @@ body {
 }
 
 #layout {
-  font-size: 1em; /*herda o tamanho do pai dele com um multiplicado*/
+  font-size: 15px; /*herda o tamanho do pai dele com um multiplicado*/
   display: flex;
   font-style: italic; /*Estilo da fonte:italic - normal - oblique*/
   line-height: 30px; /*espacamento entre linhas*/
@@ -46,7 +46,7 @@ nav a {
 }
 
 #teste_display {
-  font-size: 20px;
+  font-size: 15px;
   display: block;
   font-style: italic;
   line-height: 30px;
@@ -73,10 +73,12 @@ nav a {
   list-style-image: url('seta_direita_vermelha.png');
 }
 
-li {
+li{
   border: double 6px #08999e;
   list-style-position: outside; /*Ela serve para dizer ao navegador se o marcador dea lista faz parte ou não do texto da lista: inside ou outside*/
   border-radius: 4px;
+  font-size: 15px;
+  font-style: italic;
 }
 
 /*#impacto {
@@ -119,7 +121,7 @@ li {
 }*/
 
 #display_2{
-  font-size: 20px;
+  font-size: 15px;
   display: block;
   font-style: italic;
 
@@ -132,7 +134,49 @@ li {
 }
 
 #display_3{
-  font-size: 1em;
+  font-size:15px;
+  display: block;
+  font-style: italic;
+
+  border-style: double;
+  border-width: 1em; 
+  border-color: #069ea3;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 10px;
+}
+
+#test_gradient {
+  background-image: linear-gradient(to right, #069ea3, #d9e9eb, #069ea3); /*definir gradiente no css: to right, to bottom, to left, top top ou em graus(xdeg) quando é um gradiente de circulo usar o radial-gradient*/
+  color: black;
+  height: 650px;
+  cursor: pointer;/*altera o cursor do mouse ao passar sobre o elemento*/
+  font-size: 15px;
+  display: block;
+  font-style: italic;
+  border-style: double;
+  border-width: 1em; 
+  border-color: #000000;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 10px;
+}
+
+#display_4 {
+  font-size: 15px;
+  display: block;
+  font-style: italic;
+  border-style: double;
+  border-width: 1em; 
+  border-color: #069ea3;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 10px;
+
+}
+
+#informacoes_display {
+  font-size: 15px;
   display: block;
   font-style: italic;
 
