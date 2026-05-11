@@ -71,6 +71,15 @@ nav a {
 #teste_estilo_lista_ol {
   /*list-style-type: lower-alpha; /*decimal - lower-roman - upper-roman - lower-greek - lower-alpha - upper-alpha*/
   list-style-image: url('seta_direita_vermelha.png');
+  line-height: 30px; 
+  font-weight: 400; 
+  text-transform: capitalize; 
+  text-decoration: none; 
+  word-spacing: 1px; 
+  letter-spacing: 2px; 
+  text-indent: 20px; 
+  text-align: justify;
+
 }
 
 li{
@@ -137,6 +146,14 @@ li{
   font-size:15px;
   display: block;
   font-style: italic;
+  line-height: 30px; 
+  font-weight: 400; 
+  text-transform: capitalize; 
+  text-decoration: none; 
+  word-spacing: 1px; 
+  letter-spacing: 2px; 
+  text-indent: 20px; 
+  text-align: justify;
 
   border-style: double;
   border-width: 1em; 
@@ -160,12 +177,21 @@ li{
   border-radius: 20px;
   margin: 5px;
   padding: 10px;
+  
 }
 
 #display_4 {
   font-size: 15px;
   display: block;
   font-style: italic;
+  line-height: 30px; 
+  font-weight: 400; 
+  text-transform: capitalize; 
+  text-decoration: none; 
+  word-spacing: 1px; 
+  letter-spacing: 2px; 
+  text-indent: 20px; 
+  text-align: justify;
   border-style: double;
   border-width: 1em; 
   border-color: #069ea3;
@@ -179,6 +205,14 @@ li{
   font-size: 15px;
   display: block;
   font-style: italic;
+  line-height: 30px; 
+  font-weight: 400; 
+  text-transform: capitalize; 
+  text-decoration: none; 
+  word-spacing: 1px; 
+  letter-spacing: 2px; 
+  text-indent: 20px; 
+  text-align: justify;
 
   border-style: double;
   border-width: 1em; 
