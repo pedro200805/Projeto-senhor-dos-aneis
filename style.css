@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 #titulo_principal {
   background-color: #069ea3;
   color: lch(0% 0 0);
 }
+
 .titulo_secundario {
   background-color: #069ea3;
   color: lch(0% 0 0);
@@ -13,32 +15,52 @@
 }
 
 body {
-  background-color: rgb(0, 0, 0); /*cor de fundo*/
-  color: rgb(255, 255, 250); /*Cor da fonte*/
-  font-family: Georgia, "Times New Roman", Times, serif; /*Tipo fonte do texto*/
-  font-size: 16px; /*tamanho da fonte - px/em/rem*/
+  background-color: rgb(0, 0, 0);
+  /*cor de fundo*/
+  color: rgb(255, 255, 250);
+  /*Cor da fonte*/
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /*Tipo fonte do texto*/
+  font-size: 16px;
+  /*tamanho da fonte - px/em/rem*/
 }
 
 #layout {
-  font-size: 15px; /*herda o tamanho do pai dele com um multiplicado*/
+  font-size: 15px;
+  /*herda o tamanho do pai dele com um multiplicado*/
   display: flex;
-  font-style: italic; /*Estilo da fonte:italic - normal - oblique*/
-  line-height: 30px; /*espacamento entre linhas*/
-  font-weight: 400; /*Negrito em css 100 a 900 bold e bolder*/
-  text-transform: capitalize; /*Capitalizacao do texto: lowercase - uppercase - capitalize*/
-  text-decoration: none; /*Sublinhado de texto: underline ou overline double - dashed - dotted - wavy - none*/
-  word-spacing: 1px; /*espacamento entre palavras*/
-  letter-spacing: 2px; /*espacamento entre letras*/
-  text-indent: 20px; /*espacamento de paragrafo primeira linha*/
-  text-align: justify; /*Alinhamento do texto: left - right - center e justify*/
+  font-style: italic;
+  /*Estilo da fonte:italic - normal - oblique*/
+  line-height: 30px;
+  /*espacamento entre linhas*/
+  font-weight: 400;
+  /*Negrito em css 100 a 900 bold e bolder*/
+  text-transform: capitalize;
+  /*Capitalizacao do texto: lowercase - uppercase - capitalize*/
+  text-decoration: none;
+  /*Sublinhado de texto: underline ou overline double - dashed - dotted - wavy - none*/
+  word-spacing: 1px;
+  /*espacamento entre palavras*/
+  letter-spacing: 2px;
+  /*espacamento entre letras*/
+  text-indent: 20px;
+  /*espacamento de paragrafo primeira linha*/
+  text-align: justify;
+  /*Alinhamento do texto: left - right - center e justify*/
 
-  border-style: double; /*estilo da borda: solid, dashed, dotted, double, groove, ridge, inset, outset*/
-  border-width: 1em; /*Espessura da borda*/
-  border-color: #069ea3; /*Definir cor da borda*/
+  border-style: double;
+  /*estilo da borda: solid, dashed, dotted, double, groove, ridge, inset, outset*/
+  border-width: 1em;
+  /*Espessura da borda*/
+  border-color: #069ea3;
+  /*Definir cor da borda*/
   /*border-top: estilizar topo da borda, border-left: estilizar esquerda da borda, border-bottom: estilizar parte de baixo da borda, border-right: estilizar lado direito da borda*/
-  border-radius: 20px; /*arredondar canto da borda*/
-  margin: 5px; /*margem do lado de fora da borda*/
-  padding: 10px; /*margem dentro da borda*/
+  border-radius: 20px;
+  /*arredondar canto da borda*/
+  margin: 5px;
+  /*margem do lado de fora da borda*/
+  padding: 10px;
+  /*margem dentro da borda*/
 }
 
 nav a {
@@ -51,12 +73,12 @@ nav a {
   font-style: italic;
   line-height: 30px;
   word-spacing: 1px;
-  letter-spacing: 2px; 
+  letter-spacing: 2px;
   text-indent: 20px;
   text-align: justify;
 
   border-style: double;
-  border-width: 1em; 
+  border-width: 1em;
   border-color: #069ea3;
   border-radius: 20px;
   margin: 5px;
@@ -71,20 +93,21 @@ nav a {
 #teste_estilo_lista_ol {
   /*list-style-type: lower-alpha; /*decimal - lower-roman - upper-roman - lower-greek - lower-alpha - upper-alpha*/
   list-style-image: url('seta_direita_vermelha.png');
-  line-height: 30px; 
-  font-weight: 400; 
-  text-transform: capitalize; 
-  text-decoration: none; 
-  word-spacing: 1px; 
-  letter-spacing: 2px; 
-  text-indent: 20px; 
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-decoration: none;
+  word-spacing: 1px;
+  letter-spacing: 2px;
+  text-indent: 20px;
   text-align: justify;
 
 }
 
-li{
+li {
   border: double 6px #08999e;
-  list-style-position: outside; /*Ela serve para dizer ao navegador se o marcador dea lista faz parte ou não do texto da lista: inside ou outside*/
+  list-style-position: outside;
+  /*Ela serve para dizer ao navegador se o marcador dea lista faz parte ou não do texto da lista: inside ou outside*/
   border-radius: 4px;
   font-size: 15px;
   font-style: italic;
@@ -93,12 +116,12 @@ li{
 /*#impacto {
   /*background-image: url('senhordosaneis_fundo.jpg') no-repeat; resume a imagem de fundo e repeticao em uma linha*/
 
-  /*background-image: url('senhordosaneis_fundo.jpg'); /*Carrega imagem ao fundo do elemento html*/
-  /*background-repeat: no-repeat; /* no-repeat / repeat / repeat-y / repeat-x configura a forma como a imgaem ira repetir ao fundo do elemento do html*/
-  /*background-size: cover; /*serve para definir como a imagem sera exibida  ao fundo do html */
-  /*background-attachment: fixed; /* serve para definir como a imagem de fundo vai lidar com scroll ao fundo do html*/
-  /*text-shadow: 2px 2px 2px #04575a; /*define a sombra ao fundo do elemento html */
-  /*position: relative;
+/*background-image: url('senhordosaneis_fundo.jpg'); /*Carrega imagem ao fundo do elemento html*/
+/*background-repeat: no-repeat; /* no-repeat / repeat / repeat-y / repeat-x configura a forma como a imgaem ira repetir ao fundo do elemento do html*/
+/*background-size: cover; /*serve para definir como a imagem sera exibida  ao fundo do html */
+/*background-attachment: fixed; /* serve para definir como a imagem de fundo vai lidar com scroll ao fundo do html*/
+/*text-shadow: 2px 2px 2px #04575a; /*define a sombra ao fundo do elemento html */
+/*position: relative;
 
 }
 
@@ -106,8 +129,8 @@ li{
   border: solid white;
   width: 200px;
   position: fixed; /*define o posicionamento atras ou na frente dos elementos do html*/
-  /*height: 100px;*/
-  /*overflow: auto;/*trata o corpotamento de quando por exemplo o texto passa das bordas de um elemento html (da um overflow) visible/hidden/scroll;*/ 
+/*height: 100px;*/
+/*overflow: auto;/*trata o corpotamento de quando por exemplo o texto passa das bordas de um elemento html (da um overflow) visible/hidden/scroll;*/
 
 
 /*.um{
@@ -129,34 +152,34 @@ li{
   left: 600px;
 }*/
 
-#display_2{
+#display_2 {
   font-size: 15px;
   display: block;
   font-style: italic;
 
   border-style: double;
-  border-width: 1em; 
+  border-width: 1em;
   border-color: #069ea3;
   border-radius: 20px;
   margin: 5px;
   padding: 10px;
 }
 
-#display_3{
-  font-size:15px;
+#display_3 {
+  font-size: 15px;
   display: block;
   font-style: italic;
-  line-height: 30px; 
-  font-weight: 400; 
-  text-transform: capitalize; 
-  text-decoration: none; 
-  word-spacing: 1px; 
-  letter-spacing: 2px; 
-  text-indent: 20px; 
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-decoration: none;
+  word-spacing: 1px;
+  letter-spacing: 2px;
+  text-indent: 20px;
   text-align: justify;
 
   border-style: double;
-  border-width: 1em; 
+  border-width: 1em;
   border-color: #069ea3;
   border-radius: 20px;
   margin: 5px;
@@ -164,36 +187,38 @@ li{
 }
 
 #test_gradient {
-  background-image: linear-gradient(to right, #069ea3, #d9e9eb, #069ea3); /*definir gradiente no css: to right, to bottom, to left, top top ou em graus(xdeg) quando é um gradiente de circulo usar o radial-gradient*/
+  background-image: linear-gradient(to right, #069ea3, #d9e9eb, #069ea3);
+  /*definir gradiente no css: to right, to bottom, to left, top top ou em graus(xdeg) quando é um gradiente de circulo usar o radial-gradient*/
   color: black;
   height: 650px;
-  cursor: pointer;/*altera o cursor do mouse ao passar sobre o elemento*/
+  cursor: pointer;
+  /*altera o cursor do mouse ao passar sobre o elemento*/
   font-size: 15px;
   display: block;
   font-style: italic;
   border-style: double;
-  border-width: 1em; 
+  border-width: 1em;
   border-color: #000000;
   border-radius: 20px;
   margin: 5px;
   padding: 10px;
-  
+
 }
 
 #display_4 {
   font-size: 15px;
   display: block;
   font-style: italic;
-  line-height: 30px; 
-  font-weight: 400; 
-  text-transform: capitalize; 
-  text-decoration: none; 
-  word-spacing: 1px; 
-  letter-spacing: 2px; 
-  text-indent: 20px; 
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-decoration: none;
+  word-spacing: 1px;
+  letter-spacing: 2px;
+  text-indent: 20px;
   text-align: justify;
   border-style: double;
-  border-width: 1em; 
+  border-width: 1em;
   border-color: #069ea3;
   border-radius: 20px;
   margin: 5px;
@@ -205,19 +230,101 @@ li{
   font-size: 15px;
   display: block;
   font-style: italic;
-  line-height: 30px; 
-  font-weight: 400; 
-  text-transform: capitalize; 
-  text-decoration: none; 
-  word-spacing: 1px; 
-  letter-spacing: 2px; 
-  text-indent: 20px; 
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-decoration: none;
+  word-spacing: 1px;
+  letter-spacing: 2px;
+  text-indent: 20px;
   text-align: justify;
 
   border-style: double;
-  border-width: 1em; 
+  border-width: 1em;
   border-color: #069ea3;
   border-radius: 20px;
   margin: 5px;
   padding: 10px;
+}
+
+nav a:hover {
+  color: black;
+  opacity: 0.7;
+}
+
+.transicao {
+  background-color: #069ea3;
+  border: double black;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 10px;
+  color: white;
+  width: 300px;
+  height: 300px;
+  transition-duration: 2s;
+  /*Define o tempo de transição*/
+}
+
+.transicao:hover {
+  background-image: linear-gradient(to right, #069ea3, #d9e9eb, #069ea3);
+  width: 600px;
+  color: black;
+}
+
+/*#email:focus{
+  background-color: black;
+  color:white;
+}*/
+
+h1 {
+  animation-name: multicolor;
+  animation-duration: 3s;
+  /*animation-delay:2s;
+  animation-fill-mode:backwards;fowards*/
+  /*animation-iteration-count: infinite; quantidade de animações*/
+}
+
+@keyframes multicolor {
+  from {
+    color: #069ea3;
+  }
+
+  to {
+    color: black;
+  }
+}
+
+.animacao img {
+  display: block;
+  animation: foguete;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+
+
+}
+
+@keyframes foguete {
+  0% {
+    margin-left: 0%;
+  }
+
+  25% {
+    margin-left: 80%;
+    transform: rotate(0deg)
+  }
+
+  50% {
+    margin-left: 80%;
+    transform: rotate(-120deg)
+  }
+
+  75% {
+    margin-left: 80%;
+    transform: rotate(-120deg)
+  }
+
+  100% {
+    margin-left: 0%;
+    transform: rotate(0deg)
+  }
 }
